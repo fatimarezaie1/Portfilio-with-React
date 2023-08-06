@@ -1,0 +1,166 @@
+
+@media (max-width: 900px){
+  .header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+    .container{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main-page{
+        line-height: 40px;
+    }
+    .name{
+        font-size: 25px;
+    }
+    .job{
+        font-size: 20px;
+    }
+    h3{
+        -webkit-text-stroke:2vw #000;
+    }
+    .about-container{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+    .dev-pro{
+        width: 30%;
+    }
+    .info-developer{
+        width: 60%;
+    
+    }
+    .developer-job{
+        font-size: 14px;
+    }
+    section.slideshow{
+        width: 100%;
+        margin: 20px auto;
+    }
+    section.slideshow section.next-slide{
+       display: none;
+    }
+    section.slideshow div.slide-holder{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .contact-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .address input{
+        width: 200px;
+        height: 30px;
+    }
+    
+}
+@media (max-width: 570px) {
+    nav .menu{
+        display: flex;
+       
+    }
+    nav{
+        margin: 20px 10px auto;
+        flex-direction:column;
+        align-items: start;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+    nav ul.open{
+        display: flex;
+      
+    }
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a{
+        margin: 0.2rem 0.5rem;
+    }
+   
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+        margin-block:80px;
+        width: 100%;
+    }
+    .dev-pro{
+        width: 60%;
+        margin: 0 auto;
+     
+    }
+    .developer-profile{
+        height: 250px;
+        width: 100%;
+    }
+    .info-developer{
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+    .info-bio{
+        margin: 0 auto;
+        align-items: center;
+        font-size: 14px;
+        justify-content: center;
+    }
+    section.slideshow div.slide-holder{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .slide-holder{
+        height: 250px;
+    }
+    section.slideshow section.previous-slide,
+    section.slideshow section.next-slide{
+       display: none;
+    }
+    .contact-container{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+    .form{
+        display: grid;
+        justify-content: center;
+    }
+    .address{
+        margin: 0;
+        padding: 0;
+    }
+    .address-input{
+       
+        justify-content: center;
+        display: grid;
+    }
+    .insert-name input{
+        display: grid;
+        width: 250px;
+        height: 30px;
+       
+    }
+    .address input{
+        width: 250px;
+        height: 30px;
+    }
+    .header-news{
+        padding: 0;
+        margin: 0;
+    }
+    
+}
